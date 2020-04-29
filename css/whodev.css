@@ -1,0 +1,160 @@
+.header {
+	padding: 10px 20px;
+	background-color: #F4F4F4;
+}
+body{
+    background-color: #f4f4f4;;
+}
+.font {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header .logo {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1rem;
+}
+.logo a{
+    text-decoration: none;
+    color:black;
+}
+
+.sidenav {
+	height: 100vh;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: space-around;
+	top: 0;
+	left: 0;
+	background-color: #f1f1f1;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+	text-align: center;
+}
+
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 2rem;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 900;
+	color: #000;
+	display: block;
+	transition: 0.3s;
+}
+
+.sidenav a:hover {
+	color: #ddd;
+}
+
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
+	.sidenav a {
+		font-size: 18px;
+	}
+}
+.navicon{font-size:30px;}
+.section-1 {
+	padding: 2rem;
+	height: auto;
+	background-color: #F4F4F4;
+}
+
+.main-text {
+	text-align: center;
+}
+
+.text {
+	text-align: center;
+}
+
+.lead {
+	color: rgb(187, 187, 187);
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 900;
+}
+
+.heading {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 2rem;
+	font-weight: 900;
+}
+
+.info {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+}
+
+.main-img {
+	max-width: 100%;
+    width: 250px;
+    border-radius: 50%;
+}
+.love{color:#ff2323;}
+
+.social-link{
+    text-decoration: none;
+    color: black;
+    font-size:2rem;
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+	.heading {
+		font-size: 3rem;
+	}
+
+	.main-img {
+        display: block;
+		width: 250px;
+		
+	}
+	.text {
+		text-align: center;
+	}
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+	.main-text,
+	.lead,
+	.heading,
+	.info {
+		text-align: left;
+	}
+	.text {
+		text-align: center;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {}
