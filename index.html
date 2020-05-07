@@ -18,27 +18,21 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/caveman.css">
   <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/scrollbar.css">
+  <link rel="stylesheet" href="code/codebox.css">
+  <link href="code/themes/prism.css" rel="stylesheet" />
 
 </head>
 
 <body>
   <main>
     <header class="header flex-sb-m">
-      <div class="logo">
+      <div class="logo col">
         <h1><a href="index.html">Caveman</a></h1>
-      </div>
-      <div>
-        <span style="cursor:pointer" onclick="openNav()"><i class="fa fa-bars navicon"></i></span>
-        <div id="mySidenav" class="sidenav">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-times"></i></a>
-          <a href="index.html">Home</a>
-          <a href="">Docs</a>
-          <a href="#">Pricing</a>
-          <a href="whodev.html">Who Developed !</a>
-        </div>
       </div>
     </header>
     <section class="section-1  row">
+      
       <div class="illust col-6 flex-c-m">
         <img class="main-img" src="icons/caveman.svg" alt="">
       </div>
@@ -54,90 +48,30 @@
       </div>
     </section>
     <section class="section-2 row">
-      <div class="text">
-        <h1 class="heading-2 fw-9"><i class="fa fa-caret-right"></i>  Introduction</h1>
-        <br>
-        <h4 class="info-2 text-black fw-3">I <i class="fa fa-heart love"></i> to make unique and catchy designs with
-          just use of HTML and CSS. So I started finding same codes and keep all them together and add as a class of CSS
-          <br>Let's see how it works and learn something cool suff...
-        </h4>
-      </div>
-      <br>
-      <div class="text">
-        <h1 class="heading-2 fw-9"><i class="fa fa-caret-right"></i>  Installation</h1>
-        <h3 class="info-2 fw-3 text-black">USING CDN</h3>
+      <div class="col-1"><h1 class="sidetext font fw-9 text-faded col-1">Installation</h1></div>
+      <div class="col-11 ">
+        <div class="text">
+          
+        </div>
+        <div class="codebox">
+          <h3 class="font fw-9 info">Using CDN</h3><br>
+          
+             <pre><code class="language-html"><xmp><link rel="stylesheet" href="https://unpkg.ed/cavemancsss/caveman.css"></xmp></code></pre>
+        </div>
       </div>
     </section>
     <section class="section-3 row">
-      <div class="text col-12">
-        <h1 class="heading-3">Can i create Mocksups with it! Yes</h1>
-      </div>
-      <div class="mockups row text-center">
-        <div class="black-mockup col-6 flex-c-m">
-          <div class="black-phone flex-c-m card-16 ">
-            <div class="mockup-icons">
-              <h3 class="text-faded font fw-9">.black</h3>
-            </div>
-          </div>
-        </div>
-        <div class="white-mockup col-6 flex-c-m">
-          <div class="white-phone flex-c-m card-17">
-            <div class="mockup-icons">
-              <h3 class="text-faded font fw-9">.White</h3>
-            </div>
-          </div>
-        </div>
-      </div>
+      <h1 class="sidetext font fw-9 col-1">grids</h1>
     </section>
     <section class="section-4 row">
-      <div class="text">
-        <h1 class="heading-4 font text-white fw-9">12+1 Box-Shadows !</h1>
-      </div>
-      <div class="cards row">
-        <div class="card-wrap col-12 pad-10 flex-c-m">
-          <div class="card card-hover flex-c-m font fw-9 text-faded">.card-hover</div>
-        </div>
-        <div class="card-wrap col-4 pad-10 flex-c-m">
-          <div class="card card-1 flex-c-m font fw-9 text-faded">.card-1</div>
-        </div>
-        <div class="card-wrap col-4 pad-10 flex-c-m">
-          <div class="card card-2 flex-c-m font fw-9 text-faded">.card-2</div>
-        </div>
-        <div class="card-wrap col-4 pad-10 flex-c-m">
-          <div class="card card-3 flex-c-m font fw-9 text-faded">.card-3</div>
-        </div>
-        <div class="card-wrap col-4 pad-10 flex-c-m">
-          <div class="card card-4 flex-c-m font fw-9 text-faded">.card-4</div>
-        </div>
-        <div class="card-wrap col-4 pad-10 flex-c-m">
-          <div class="card card-5 flex-c-m font fw-9 text-faded">.card-5</div>
-        </div>
-        <div class="card-wrap col-4 pad-10 flex-c-m">
-          <div class="card card-6 flex-c-m font fw-9 text-faded">.card-6</div>
-        </div>
-        <div class="card-wrap col-4 pad-10 flex-c-m">
-          <div class="card card-7 flex-c-m font fw-9 text-faded">.card-7</div>
-        </div>
-        <div class="card-wrap col-4 pad-10 flex-c-m">
-          <div class="card card-8 flex-c-m font fw-9 text-faded">.card-8</div>
-        </div>
-        <div class="card-wrap col-4 pad-10 flex-c-m">
-          <div class="card card-9 flex-c-m font fw-9 text-faded">.card-9</div>
-        </div>
-        <div class="card-wrap col-4 pad-10 flex-c-m">
-          <div class="card card-10 flex-c-m font fw-9 text-faded">.card-10</div>
-        </div>
-        <div class="card-wrap col-4 pad-10 flex-c-m">
-          <div class="card card-11 flex-c-m font fw-9 text-faded">.card-11</div>
-        </div>
-        <div class="card-wrap col-4 pad-10 flex-c-m">
-          <div class="card card-12 flex-c-m font fw-9 text-faded">.card-12</div>
-        </div>
-      </div>
+      <h1 class="sidetext font fw-9">forms</h1>
+    </section>
+    <section class="section-5">
+      <h1 class="sidetext font fw-9">Buttons</h1>
     </section>
     <footer></footer>
   </main>
-  <script src="js/main.js"></script>
+  <script src="code/themes/prism.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init(
