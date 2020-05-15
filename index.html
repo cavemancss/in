@@ -11,9 +11,10 @@
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <title>Caveman's CSS</title>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
-    rel="stylesheet">
+  
+<link rel="stylesheet" href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/caveman.css">
@@ -39,13 +40,34 @@
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="nv-container row"> 
             <div class="navbox col-4">
-              <li><a class="link" href="javascript:void(0);">Introduction</a></li>
+              <h4>Getting Started</h4>
+              <h5><a class="navlink" href="#">Introduction</a></h5>
+              <h5><a class="navlink" href="#">Installation</a></h5>
+              <h5><a class="navlink" href="#">Documentation</a></h5>
+              
             </div>
             <div class="navbox col-4">
-              <h4><a class="navlink" href=""></a></h4>
+              <h3>Componants</h3>
+              <div class="part flex-sb-m">
+                <div class="partbox">
+                 
+                  <h5><a class="navlink" href="#">Accordition</a></h5>
+                  <h5><a class="navlink" href="#">Alignment</a></h5>
+                  <h5><a class="navlink" href="#">Buttons</a></h5>
+                  <h5><a class="navlink" href="#">Breadcrumbs</a></h5></div>
+                <div class="partbox"> 
+                  <h5><a class="navlink" href="#">Box-shadow</a></h5>
+                  <h5><a class="navlink" href="#">cards</a></h5>
+                  <h5><a class="navlink" href="#">container</a></h5>
+                  <h5><a class="navlink" href="#">Alignment</a></h5></div>
+                </div>     
+                       
             </div>
-            <div class="navbox col-4">
-              <li><a class="link" href="javascript:void(0);">Introduction</a></li>
+            <div class="navbox col-4 flex-sa-m">
+              <h5><a class="navlink" href="#"><i class="social fa fa-facebook-square"></i></a></h5>
+                  <h5><a class="navlink" href="#"><i class="social fa fa-instagram"></i></a></h5>
+                  <h5><a class="navlink" href="#"><i class="social fa fa-behance"></i></a></h5>
+                  <h5><a class="navlink" href="#"><i class="social  fa fa-linkedin"></i></a></h5></div>
             </div>
         </div>
         </div>
@@ -58,43 +80,34 @@
     <section class="section-1  row">
       
       <div class="illust col-6 flex-c-m">
-        <img class="main-img" src="icons/caveman.svg" alt="">
+        <img class="main-img" src="icons/people.svg" alt="">
+        
       </div>
       <div class="main-text col-6">
         <br>  
         <h3 class="lead">Caveman's CSS </h3>
-        <h1 class="heading">Be handy like caveman in web design</h1>
+        <h1 class="heading">Be handy like caveman in web design</h1><br>
         <h4 class="info">A Grid & Flexbox based modern CSS framework</h4>
         <br>
         <div class="btns font row ">
-          <a class="cm-btn btn-black bs-1 col-6" href="docs.html">Read Docs</a>
+          <a class="cm-btn btn-info bs-1 col-6 card-12" href="docs.html">Read Docs</a>
         </div>
       </div>
     </section>
+ 
     <section class="section-2 row">
-      <div class="col-1"><h1 class="sidetext font fw-9 text-faded col-1">Installation</h1></div>
-      <div class="col-11 ">
-        <div class="codebox">
-          <h3 class="font fw-6 info">Using CDN</h3><br>
-          <h4 class="font fw-3"> Copy given code-line and paste it into &lt;head&gt;&lt;/head&gt; section of your html document</h4>
-            <br>
-             <pre><code class="language-html"><xmp><link rel="stylesheet" href="https://unpkg.ed/cavemancsss/caveman.css"></xmp></code></pre>
-            </div><br><h1 class="text-center font fw-6">OR</h1>
-            <div class="codebox">
-              <h3 class="font info fw-6">Download</h3><br>
-              <h4 class="font fw-3">Download <a class="link text-error " href="javascript:void(0)">caveman.zip</a> <br>Run into your local machine and work offline</h4>
-            </div>
-          </div>
+
     </section>
-    <section class="section-3 row">
-      <h1 class="sidetext font fw-9 col-1">Best Design</h1>
+    <section class="author">
+      <div class="text">
+        <div class="name"><h1>Ankit Upadhyay</h1></div>
+        <div class="about"></div>
+
+      </div>
+      <div class="profile-pic"></div>
+      <div class="donation"></div>
     </section>
-    <section class="section-4 row">
-      <h1 class="sidetext font fw-9">forms</h1>
-    </section>
-    <section class="section-5">
-      <h1 class="sidetext font fw-9">Buttons</h1>
-    </section>
+
     <footer></footer>
   </main>
   <script src="code/themes/prism.js"></script>

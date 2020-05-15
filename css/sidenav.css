@@ -4,9 +4,12 @@
 	position: fixed;
 	z-index: 1;
 	top: 0;
+	font:18px 'Gilroy', sans-serif;
 	right: 0;
+	height: auto;
 	background-color: #fff;
 	overflow-x: hidden;
+	box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 	transition: .25s cubic-bezier(0.895, 0.03, 0.685, 0.22);
 
   }
@@ -22,14 +25,31 @@
   }
   
 .navbox{
-	
+	margin-top: 3rem;
+	font:18px 'Gilroy', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	text-align: left;
 	padding: 1rem;
 }	
-.navbox li{
-	
-	list-style:none;	  
-}
-.navbar li .navlink{
+.navbox h5{margin:0.4rem;font-weight: 400;}
+.navbox h5 .navlink{
 	color:#1f2423;
+	cursor:pointer;
 	text-decoration: none;
 }
+.navbox h5 .navlink:hover{
+	color:#ddd;
+}
+.part{
+	text-align:left;
+}
+.partbox{
+	width:50%;
+}
+@media only screen and (min-width:800px){
+.navbox{
+	text-align: left;
+}
+}
+.social{font-size:20px;}

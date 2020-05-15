@@ -13,11 +13,11 @@
 }
 
 .font {
-	font-family: 'Source Sans Pro', sans-serif;
+	font:18px 'Gilroy', sans-serif;
 }
 
 .header .logo {
-	font-family: 'Source Sans Pro', sans-serif;
+	font:18px 'Gilroy', sans-serif;
 	font-size: 1rem;
 }
 .logo a{
