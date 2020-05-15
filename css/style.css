@@ -46,12 +46,17 @@
   
   .author .profile-pic .dp {
 	max-width: 100%;
-	width: 150px;
+	width: 100px;
   }
   
   .author .text {
 	text-align: left;
 	padding: 1rem;
+	color
+  }
+  ::selection {
+	color:#1f2423;
+	background:#ddd;
   }
   
   .author .text .tag {
@@ -70,7 +75,15 @@
 	width: 140px;
 	font: 18px 'Gilroy', sans-serif;
   }
-  
+  .author .text .donation .patron
+{
+	margin:0px 10px;
+	width: 140px;
+	height: 46px;
+	color:#1f2423;
+	font: 18px 'Gilroy', sans-serif;
+
+}  
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
   
