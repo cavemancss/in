@@ -38,9 +38,35 @@
   height:auto;
  
 }
+.author{
+	padding: 2rem;
+	height: auto;
+	background-color: #0480ff;
+}
+.author .profile-pic .dp{
+	max-width:100%;
+	width: 150px;
+}
+.author .text {
+	text-align: left;
+	padding:1rem;
+}
+.author .text .tag {
+	font:18px 'Gilroy', sans-serif;
+	font-size:18px;
+	color:#fdfffc;
+	
 
-
-
+}
+.author .text .name {
+	font:18px 'Gilroy', sans-serif;
+	font-size: 1.3rem;
+	color: #fdfffc;	
+}
+.author .text .donation .coffee{
+	width:140px;
+	font:18px 'Gilroy', sans-serif;
+}
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
 @media only screen and (min-width: 600px) {
@@ -55,8 +81,6 @@
 	}
 
 }
-
-
 /* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (min-width: 768px) {
