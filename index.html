@@ -21,14 +21,38 @@
   <link rel="stylesheet" href="css/scrollbar.css">
   <link rel="stylesheet" href="code/codebox.css">
   <link href="code/themes/prism.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/sidenav.css">
+ 
+  
 
 </head>
 
 <body>
   <main>
     <header class="header flex-sb-m">
-      <div class="logo col">
+      <div class="logo">
         <h1><a href="index.html">Caveman</a></h1>
+      </div>
+      <div class="nav">
+        <span style="cursor: pointer;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="nv-container row"> 
+            <div class="navbox col-4">
+              <li><a class="link" href="javascript:void(0);">Introduction</a></li>
+            </div>
+            <div class="navbox col-4">
+              <h4><a class="navlink" href=""></a></h4>
+            </div>
+            <div class="navbox col-4">
+              <li><a class="link" href="javascript:void(0);">Introduction</a></li>
+            </div>
+        </div>
+        </div>
+      </div>
+    
+</header>
+</div>
       </div>
     </header>
     <section class="section-1  row">
@@ -74,7 +98,10 @@
     <footer></footer>
   </main>
   <script src="code/themes/prism.js"></script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="js/sidenav.js"></script>
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
   <script>
     AOS.init(
       {
@@ -82,6 +109,7 @@
       }
     );
   </script>
+
 </body>
 
 </html>
