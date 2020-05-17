@@ -129,7 +129,6 @@
   }
   .section-2 .specs{ 
 	  margin: 0 auto;
-	  padding:1rem;
 	  height: 200px;
 	  border-radius: 5px;
 	  display: flex;
@@ -145,4 +144,11 @@
   .section-2 .specs .specs-text{
 	font: 16px 'Gilroy', sans-serif;
 	font-weight: 300px;
+	text-align: center;
+  }
+  .section-2 .specs .text h1 i{
+	background-color: #0480ff;
+	color: #fdfffc;
+	border-radius: 50%;
+	padding: 1rem;
   }
