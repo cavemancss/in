@@ -53,7 +53,7 @@
 		text-align: left;
 	}
 }
-
+.cm-btn{font: 18px 'Gilroy', sans-serif;}
 .cm-btn:hover {
 	transition: ease-in-out 0.4s;
 }
