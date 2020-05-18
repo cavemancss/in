@@ -627,6 +627,149 @@ body{
   }
  /* links */
 .link , .link:hover , .link:visited{text-decoration:none;}
+/* forms */
+/* input */
+.cm-input{
+	width: inherit;
+	padding: 0.3rem;
+	margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+input,
+textarea {
+    padding: .9rem 1rem .9rem 2rem
+}
+input[type=email],
+input[type=file],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=url],
+select,
+textarea,
+textarea[type=text] {
+
+	padding: 0.3rem;
+   
+    box-sizing: border-box;
+    transition: all .2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+	border: 1px solid #000;
+	outline: none;
+
+}
+input[type=email]:focus,
+input[type=file]:focus,
+input[type=number]:focus,
+input[type=password]:focus,
+input[type=search]:focus,
+input[type=tel]:focus,
+input[type=text]:focus,
+input[type=url]:focus,
+select:focus,
+textarea:focus,
+textarea[type=text]:focus {
+    border-color: inherit;
+    transition: all .2s ease
+}
+.input-info input[type=email],
+.input-info input[type=file],
+.input-info input[type=number],
+.input-info input[type=password],
+.input-info input[type=search],
+.input-info input[type=tel],
+.input-info input[type=text],
+.input-info input[type=url],
+.input-info select,
+.input-info textarea,
+.input-info textarea[type=text] {
+	border-color: #0480ff;
+	
+}
+.input-error input[type=email],
+.input-error input[type=file],
+.input-error input[type=number],
+.input-error input[type=password],
+.input-error input[type=search],
+.input-error input[type=tel],
+.input-error input[type=text],
+.input-error input[type=url],
+.input-error select,
+.input-error textarea,
+.input-error textarea[type=text] {
+	border-color: #ec0606;
+	
+}
+.input-warning input[type=email],
+.input-warning input[type=file],
+.input-warning input[type=number],
+.input-warning input[type=password],
+.input-warning input[type=search],
+.input-warning input[type=tel],
+.input-warning input[type=text],
+.input-warning input[type=url],
+.input-warning select,
+.input-warning textarea,
+.input-warning textarea[type=text] {
+	border-color: #ffcc00;
+	
+}
+.input-success input[type=email],
+.input-success input[type=file],
+.input-success input[type=number],
+.input-success input[type=password],
+.input-success input[type=search],
+.input-success input[type=tel],
+.input-success input[type=text],
+.input-success input[type=url],
+.input-success select,
+.input-success textarea,
+.input-success textarea[type=text] {
+	border-color: #04e474;
+	
+}
+
+.input-bg-white input[type=email],
+.input-bg-white input[type=file],
+.input-bg-white input[type=number],
+.input-bg-white input[type=password],
+.input-bg-white input[type=search],
+.input-bg-white input[type=tel],
+.input-bg-white input[type=text],
+.input-bg-white input[type=url],
+.input-bg-white select,
+.input-bg-white textarea,
+.input-bg-white textarea[type=text] {
+	background:#fff;
+	border: 0;
+}
+.input-transparent input[type=email],
+.input-transparent input[type=file],
+.input-transparent input[type=number],
+.input-transparent input[type=password],
+.input-transparent input[type=search],
+.input-transparent input[type=tel],
+.input-transparent input[type=text],
+.input-transparent input[type=url],
+.input-transparent select,
+.input-transparent textarea,
+.input-transparent textarea[type=text] {
+	background: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* buttons */
 .cm-btn{
 	padding: 15px 30px;
