@@ -3,37 +3,40 @@
 	padding: 2rem;
 	height: auto;
 	background-color: #fdfffc;
-  }
-  .main-text {
+}
+
+.main-text {
 	text-align: center;
-  }  
-  .heading {
+}
+
+.heading {
 	font: 18px 'Gilroy', sans-serif;
 	font-size: 2rem;
 	color: #1f2423;
 	font-weight: 900;
-  }
-  .info {
+}
+
+.info {
 	font: 18px 'Gilroy', sans-serif;
 	font-weight: 300;
-  }
-  @media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 600px) {
 	.heading {
-	  font-size: 3rem;
+		font-size: 3rem;
 	}
 	.docs-img {
-	  width: 300px;
-	
+		width: 300px;
 	}
-  }
-  
-  
-  /* Medium devices (landscape tablets, 768px and up) */
-  
-  @media only screen and (min-width: 768px) {
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
 	.main-text,
 	.heading,
 	.info {
-	  text-align: left;
+		text-align: left;
 	}
-  }
+}

@@ -3,158 +3,169 @@
 	padding: 2rem;
 	height: auto;
 	background-color: #fdfffc;
-  }
-  
-  .main-text {
+}
+
+.main-text {
 	text-align: center;
-  }
-  
-  .lead {
+}
+
+.lead {
 	color: rgb(187, 187, 187);
 	font: 18px 'Gilroy', sans-serif;
 	font-weight: 900;
-  }
-  
-  .heading {
+}
+
+.heading {
 	font: 18px 'Gilroy', sans-serif;
 	font-size: 2rem;
 	color: #1f2423;
 	font-weight: 900;
-  }
-  
-  .info {
+}
+
+.info {
 	font: 18px 'Gilroy', sans-serif;
 	font-weight: 300;
-  }
-  
-  .main-img {
+}
+
+.main-img {
 	max-width: 100%;
 	width: 100px;
-  }
-  @media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 600px) {
 	.heading {
-	  font-size: 3rem;
+		font-size: 3rem;
 	}
 	.main-img {
-	  width: 250px;
-	  margin-top: 50px;
+		width: 250px;
+		margin-top: 50px;
 	}
-  }
-  
-  
-  /* Medium devices (landscape tablets, 768px and up) */
-  
-  @media only screen and (min-width: 768px) {
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
 	.main-text,
 	.lead,
 	.heading,
 	.info {
-	  text-align: left;
+		text-align: left;
 	}
-  }
+}
 
-  .cm-btn:hover{transition: ease-in-out 0.4s;}
-  .quick-setup h3{
-	padding:0.5rem;
+.cm-btn:hover {
+	transition: ease-in-out 0.4s;
+}
+
+.quick-setup h3 {
+	padding: 0.5rem;
 	font: 18px 'Gilroy', sans-serif;
 	font-size: 2rem;
-	color:#1f2423;
+	color: #1f2423;
 	font-weight: 1000;
-  }
-  .quick-setup .code{
-	  width: 80%;
-	  margin: 0 auto;
-	 
-  }
- .code .code-text{
+}
+
+.quick-setup .code {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.code .code-text {
 	font: 18px 'Gilroy', sans-serif;
 	font-weight: 300;
-  }
-  .section-2 {
+}
+
+.section-2 {
 	padding: 2rem;
 	margin-top: -1rem;
 	height: auto;
-  }
-  
-  .author {
+}
+
+.author {
 	padding: 2rem;
 	height: auto;
 	background-color: #0480ff;
-  }
-  
-  .author .profile-pic .dp {
+}
+
+.author .profile-pic .dp {
 	max-width: 100%;
 	width: 100px;
-  }
-  
-  .author .text {
+}
+
+.author .text {
 	text-align: left;
 	padding: 1rem;
-  }
-  ::selection {
-	color:#1f2423;
-	background:#ddd;
-  }
-  
-  .author .text .tag {
+}
+
+ ::selection {
+	color: #1f2423;
+	background: #ddd;
+}
+
+.author .text .tag {
 	font: 18px 'Gilroy', sans-serif;
 	font-size: 18px;
 	color: #fdfffc;
-  }
-  
-  .author .text .name {
+}
+
+.author .text .name {
 	font: 18px 'Gilroy', sans-serif;
 	font-size: 1.3rem;
 	color: #fdfffc;
-  }
-  
-  .author .text .donation .coffee {
+}
+
+.author .text .donation .coffee {
 	width: 140px;
 	font: 18px 'Gilroy', sans-serif;
-  }
-  .author .text .donation .patron
-{
-	margin:0px 10px;
+}
+
+.author .text .donation .patron {
+	margin: 0px 10px;
 	width: 140px;
 	height: 46px;
-	color:#1f2423;
+	color: #1f2423;
 	font: 18px 'Gilroy', sans-serif;
+}
 
-}  
-  
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  
 
-  .section-2{
-	  padding:2rem;
-  }
-  .section-2 .specs{ 
-	  margin: 0 auto;
-	  height: 200px;
-	  border-radius: 5px;
-	  display: flex;
-	  justify-content: center;
-	  align-items: center;	
-	  background-color: #fff;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+.section-2 {
+	padding: 2rem;
+}
+
+.section-2 .specs {
+	margin: 0 auto;
+	height: 200px;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
 	font: 18px 'Gilroy', sans-serif;
-  }
-  .section-2 .specs:hover{
-	   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-	   transition: ease-in-out 0.5s;
-  }
-  .section-2 .specs .specs-text{
+}
+
+.section-2 .specs:hover {
+	box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+	transition: ease-in-out 0.5s;
+}
+
+.section-2 .specs .specs-text {
 	font: 16px 'Gilroy', sans-serif;
 	font-weight: 300px;
 	text-align: center;
-  }
-  .section-2 .specs .text h1 i{
+}
+
+.section-2 .specs .text h1 i {
 	background-color: #0480ff;
 	color: #fdfffc;
 	border-radius: 50%;
 	padding: 1rem;
-  }
-  .docs-img{
-	  max-width: 100%;
-	  width: 300px;
-	  margin:1rem;
-  }
+}
+
+.docs-img {
+	max-width: 100%;
+	width: 300px;
+	margin: 1rem;
+}
