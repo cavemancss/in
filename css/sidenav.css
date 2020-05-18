@@ -6,9 +6,9 @@
 	top: 0;
 	font: 18px 'Gilroy', sans-serif;
 	right: 0;
-	height: auto;
+	height:auto;
 	background-color: #fff;
-	overflow-x: hidden;
+	overflow-y: scroll;
 	box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 	transition: .25s cubic-bezier(0.895, 0.03, 0.685, 0.22);
   }
@@ -65,4 +65,7 @@
   
   .social {
 	font-size: 20px;
+  }
+  .nav-footer{
+	  padding: 1rem;
   }
