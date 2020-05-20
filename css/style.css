@@ -30,6 +30,7 @@
 .main-img {
 	max-width: 100%;
 	width: 100px;
+Margin-top:50px;
 }
 
 @media only screen and (min-width: 600px) {
