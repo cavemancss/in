@@ -10,10 +10,10 @@
 	
 }
 
-.section-1 .main-text .lead {
-	color: rgb(187, 187, 187);
+.section-1 .main-text .lead{
+	color: #bbbbbb;
 	font: 18px 'Gilroy', sans-serif;
-	font-weight: 900;
+font-weight: 700;
 }
 
 .section-1 .main-text .heading {
@@ -29,8 +29,9 @@
 }
 
 .section-1 .illust .main-img {
+	margin-top: 2rem;
 	max-width: 100%;
-	width: 100px;
+	width: 300px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -38,7 +39,7 @@
 		font-size: 3rem;
 	}
 	.section-1 .illust .main-img {
-		width: 250px;
+		width: 450px;
 		margin-top: 50px;
 	}
 }
@@ -111,6 +112,12 @@
 	font-size: 1.3rem;
 	color: #fdfffc;
 }
+.author .text .info {
+	font: 18px 'Gilroy', sans-serif;
+	color: #fdfffc;
+	font-weight: 300;
+	line-height: 1.5;
+}
 
 .author .text .donation .coffee {
 	width: 140px;
@@ -133,8 +140,14 @@
 	background:#f5f9ff;
 	
 }
+.section-2 .text .lead {color:#bbbbbb ;font: 18px 'Gilroy', sans-serif;font-weight: 600;}
+.section-2 .text .info {font: 18px 'Gilroy', sans-serif;
+	font-weight: 300;}
 .section-2 .text .heading{
-
+	font: 40px 'Gilroy', sans-serif;
+	color: #1f2423;
+	text-align: left;
+	font-weight: 700;
 }
 .img-1{
 	display: inline;
