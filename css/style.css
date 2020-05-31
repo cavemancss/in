@@ -1,33 +1,34 @@
 .section-1 {
-	margin-top: 50px;
+	margin-top:4rem;
 	padding: 2rem;
 	height: auto;
 	background-color: #fdfffc;
 }
 
-.main-text {
-	text-align: center;
+.section-1 .main-text {
+	text-align: left;
+	
 }
 
-.lead {
+.section-1 .main-text .lead {
 	color: rgb(187, 187, 187);
 	font: 18px 'Gilroy', sans-serif;
 	font-weight: 900;
 }
 
-.heading {
-	font: 18px 'Gilroy', sans-serif;
-	font-size: 2rem;
+.section-1 .main-text .heading {
+	font: 50px'Gilroy', sans-serif;
 	color: #1f2423;
+	text-align: left;
 	font-weight: 900;
 }
 
-.info {
+.section-1 .main-text .info {
 	font: 18px 'Gilroy', sans-serif;
 	font-weight: 300;
 }
 
-.main-img {
+.section-1 .illust .main-img {
 	max-width: 100%;
 	width: 100px;
 }
@@ -36,7 +37,7 @@
 	.heading {
 		font-size: 3rem;
 	}
-	.main-img {
+	.section-1 .illust .main-img {
 		width: 250px;
 		margin-top: 50px;
 	}
@@ -53,9 +54,10 @@
 		text-align: left;
 	}
 }
-
+.cm-btn{font: 18px 'Gilroy', sans-serif;}
 .cm-btn:hover {
 	transition: ease-in-out 0.4s;
+	font: 18px 'Gilroy', sans-serif;
 }
 
 .quick-setup h3 {
@@ -76,11 +78,6 @@
 	font-weight: 300;
 }
 
-.section-2 {
-	padding: 2rem;
-	margin-top: -1rem;
-	height: auto;
-}
 
 .author {
 	padding: 2rem;
@@ -133,37 +130,16 @@
 
 .section-2 {
 	padding: 2rem;
+	background:#f5f9ff;
+	
 }
+.section-2 .text .heading{
 
-.section-2 .specs {
-	margin: 0 auto;
-	height: 200px;
-	border-radius: 5px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: #fff;
-	font: 18px 'Gilroy', sans-serif;
 }
-
-.section-2 .specs:hover {
-	box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-	transition: ease-in-out 0.5s;
+.img-1{
+	display: inline;
+	width: 300px;
 }
-
-.section-2 .specs .specs-text {
-	font: 16px 'Gilroy', sans-serif;
-	font-weight: 300px;
-	text-align: center;
-}
-
-.section-2 .specs .text h1 i {
-	background-color: #0480ff;
-	color: #fdfffc;
-	border-radius: 50%;
-	padding: 1rem;
-}
-
 .docs-img {
 	max-width: 100%;
 	width: 300px;
