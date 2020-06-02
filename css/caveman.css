@@ -626,6 +626,10 @@ body{
 	width: 90%;
   }
  /* links */
+ .link{
+	font-size: inherit;
+	font-size:100%;
+ }
 .link , .link:hover , .link:visited{text-decoration:none;}
 /* forms */
 /* input */
@@ -652,7 +656,6 @@ textarea,
 textarea[type=text] {
 
 	padding: 0.3rem;
-   
     box-sizing: border-box;
     transition: all .2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
 	border: 1px solid #000;
@@ -759,12 +762,13 @@ textarea[type=text]:focus {
 }
 
 /* buttons */
+
 .cm-btn{
 	padding: 15px 30px;
 	border: none;
 	text-align: center;
 	text-decoration: none;
-	display: inline-block;
+	display:block;
 	font-size: 16px;
 	outline:none;  
 	cursor: pointer;
@@ -773,7 +777,7 @@ textarea[type=text]:focus {
 .btn-error{background-color: #EC0606;color: #fff;}
 .btn-success{ background-color:#04E474;color: #fff;}
 .btn-warning{background-color: #FFCC00;}
-.btn-disabled{background-color: #ddd}
+.btn-disabled{background-color: #ddd;cursor:disabled;}
 .btn-black{background-color: #000000;color: #fff;}
 .btn-bordered{border: 2px solid;background: transparent;}
 .btn-white{background-color: #fff;}
@@ -787,7 +791,6 @@ textarea[type=text]:focus {
 .border-error{border-color: #EC0606;}
 .border-success{border-color: #04E474;}
 .border-warning{border-color: #FFCC00;}
-
 .btn-round{border-radius:1000vh;}
 /* alerts */
 .cm-alert{

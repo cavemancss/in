@@ -6,18 +6,17 @@
       <meta name="keywords" content="caveman,cavemancss,cavemancssframework,caveman css,caveman css framework, caveman framework , css framework , css library ,caveman library,css caveman, csscaveman, csscavemanframework,css caveman framewrok , html , css , javascript, js ,htmlcssjs,htmlcss,cssjs ">
       <meta name="author" content="Ankit Upadhyay">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://use.fontawesome.com/8a3510afcd.js"></script>
       <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
       <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
       <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
       <link rel="manifest" href="favicon/site.webmanifest">
-      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
       <title>Home | Caveman CSS Franework</title>
       <link rel="stylesheet" href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">
       <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       <link rel="stylesheet" href="css/style.css">
-      <link rel="stylesheet" href="css/caveman.min.css">
+      <link rel="stylesheet" href="css/caveman.css">
       <link rel="stylesheet" href="css/header.css">
       <link rel="stylesheet" href="css/scrollbar.css">
       <link rel="stylesheet" href="css/prism.css">
@@ -78,8 +77,16 @@
                
                <h4 class="info" >A Grid & Flexbox based modern CSS framework</h4>
                <br>
-               <div class="btns font row">
-                  <a class="cm-btn btn-info bs-1 col-6 card-12-hover " href="docs/index.html">Read Docs</a>
+               <div class="row ">
+                  <div class="col-6 docs-btn">
+                     <div class=""> <a class="cm-btn btn-info" href="docs/index.html">Get Started</a></div>
+                 
+                  </div>
+                  <div class="col-6 docs-btn">
+                     <div class=""><a class="cm-btn btn-black" href="#">Download</a></div>
+             
+                  </div>
+                 
                </div>
             </div>
             <div class="illust col-6 flex-c-m" data-aos="zoom-out">
@@ -95,9 +102,49 @@
                <br>  
                <h3 class="lead fw-4">Beautifully Designed UI interface</h3>
                <h1 class="heading fw-7">fully customisable only css class based </h1>
-               <h4 class="info">Caveman CSS framework is designed like this</h4>
+               <h4 class="info">caveman css framework is designed like this</h4>
          
             </div>
+         </section>
+         <section class="section-3 row">
+            <div class="text col-6">
+               <h3 class="lead text-success "><i class="fa fa-download"></i></h3>
+               <h1 class="heading ">Installation</h1>
+               <h4 class="info">Install Caveman's source CSS files through package installer via npm , composer, yarn</h4>
+            </div>
+            <div class="codebox col-6 ">
+               <pre class=""><code class="language-cmd">$ npm install cavemancss</code></pre>
+            </div>
+         </section>
+         <section class="section-3 row">
+            <div class="text col-6">
+               <h3 class="lead text-error "><i class="fa fa-cloud-download"></i><h3>
+               <h1 class="heading ">Caveman's CDN</h1>
+               <h4 class="info">When you only need to include Caveman's compiled CSS , you can use Caveman's CDN. <br>Copy the HTML code from here and paste it into <xmp><head></head></xmp>tag of your HTML document</h4>
+            </div>
+            <div class="codebox col-6 ">
+               <pre class=""><code class="language-html"><xmp><link rel="stylesheet" href="#"></xmp></code></pre>
+            </div>
+         </section>
+         <section class="section-4 row">
+            <div class="text col-6">
+               <h3 class="lead text-warning"><i class="fa fa-tint" aria-hidden="true"></i><h3>
+               <h1 class="heading fw-8">Caveman's colors</h1><br>
+               <h4 class="info">There are 4 primary and 3 secondary colors in caveman.css. <br> We call them <span class="text-info">info</span>, <span class="text-warning">warning</span>, <span class="text-success">sucess</span>, <span class="text-error">error</span> and <span class="text-black fw-4">black</span>, <span class="text-white fw-4">white</span>,<span class="text-faded">faded</span> 
+               </h4><br>
+               <div class="text-left font "><a href="#" class="link text-info fw-7 ">GET CODES_></a></div>
+            </div>
+            <div class="color-palette col-6">
+               <div class="flex-sa">
+                  <div class="color-circle color-info flex-c-m"><h4 class="text-white fw-7 text-center">info<br><span class="fw-3"></span></h4></div>
+                  <div class="color-circle color-warning flex-c-m"><h4 class="text-black fw-7">warning</h4></div>
+               </div><br><br>
+               <div class="flex-sa-m">
+                  <div class="color-circle color-success flex-c-m"><h4 class="text-white fw-7">success</h4></div>
+                  <div class="color-circle color-error flex-c-m"><h4 class="text-white fw-7">error</h4></div>
+               </div>
+            </div>
+
          </section>
          <section class="author row">
             <div class="profile-pic col-2 ">
@@ -125,6 +172,7 @@
          </section>
          <footer></footer>
       </main>
+
       <script src="js/prism.js"></script>
       <script src="js/sidenav.js"></script>
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
