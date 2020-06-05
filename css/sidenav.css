@@ -4,8 +4,9 @@
 	position: fixed;
 	z-index: 1;
 	top: 0;
-	font: 18px 'Gilroy', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	right: 0;
+	font-size: 18px;
 	height: auto;
 	background-color: #fff;
 	overflow-y: scroll;
@@ -27,13 +28,12 @@
 
 .navbox {
 	margin-top: 3rem;
-	font: 18px 'Gilroy', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
-	font-size: 20px;
+	font-size: 18px;
 	text-align: left;
 	padding: 1rem;
 }
-
 .navbox h5 {
 	margin: 0.4rem;
 	font-weight: 400;
@@ -46,7 +46,7 @@
 }
 
 .navbox h5 .navlink:hover {
-	color: #ddd;
+	opacity:0.7;
 }
 
 .part {
