@@ -1,185 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="description" content="Free Web tutorials">
-      <meta name="keywords" content="caveman,cavemancss,cavemancssframework,caveman css,caveman css framework, caveman framework , css framework , css library ,caveman library,css caveman, csscaveman, csscavemanframework,css caveman framewrok , html , css , javascript, js ,htmlcssjs,htmlcss,cssjs ">
-      <meta name="author" content="Ankit Upadhyay">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <script src="https://use.fontawesome.com/8a3510afcd.js"></script>
-      <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-      <link rel="manifest" href="favicon/site.webmanifest">
-      <title>Home | Caveman CSS Franework</title>
-     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="stylesheet" href="css/caveman.css">
-      <link rel="stylesheet" href="css/header.css">
-      <link rel="stylesheet" href="css/scrollbar.css">
-      <link rel="stylesheet" href="css/prism.css">
-      <link rel="stylesheet" href="css/sidenav.css">
-   </head>
-   <body>
-      <main>
-         <header class="header flex-sb-m">
-            <div class="logo">
-               <h1><a href="index.html">Caveman</a></h1>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="caveman,cavemancss,cavemancssframework,caveman css,caveman css framework, caveman framework , css framework , css library ,caveman library,css caveman, csscaveman, csscavemanframework,css caveman framewrok , html , css , javascript, js ,htmlcssjs,htmlcss,cssjs ">
+  <meta name="author" content="Ankit Upadhyay">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://use.fontawesome.com/8a3510afcd.js"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  <title>Home | Caveman CSS Franework</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/caveman.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/scrollbar.css">
+  <link rel="stylesheet" href="css/prism.css">
+  <link rel="stylesheet" href="css/sidenav.css">
+</head>
+<body>
+  <main>
+    <header class="header flex-sb-m">
+      <div class="logo">
+        <h1><a href="index.html">Caveman</a></h1>
+      </div>
+      <div class="nav">
+        <span style="cursor: pointer;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="nv-container row">
+            <div class="navbox col-4">
+              <h3>Getting Started</h3>
+              <h5><a class="navlink" href="#">Introduction</a></h5>
+              <h5><a class="navlink" href="#">Installation</a></h5>
+              <h5><a class="navlink" href="#">Documentation</a></h5>
             </div>
-            <div class="nav">
-               <span style="cursor: pointer;" onclick="openNav()"><i class="fa fa-bars"></i></span>
-               <div id="mySidenav" class="sidenav">
-                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                  <div class="nv-container row">
-                     <div class="navbox col-4">
-                        <h3>Getting Started</h3>
-                        <h5><a class="navlink" href="#">Introduction</a></h5>
-                        <h5><a class="navlink" href="#">Installation</a></h5>
-                        <h5><a class="navlink" href="#">Documentation</a></h5>
-                     </div>
-                     <div class="navbox col-4">
-                        <h3>Componants</h3>
-                        <div class="part flex-sb-m">
-                           <div class="partbox">
-                              <h5><a class="navlink" href="#">Accordition</a></h5>
-                              <h5><a class="navlink" href="#">Alignment</a></h5>
-                              <h5><a class="navlink" href="#">Buttons</a></h5>
-                              <h5><a class="navlink" href="#">Breadcrumbs</a></h5>
-                           </div>
-                           <div class="partbox">
-                              <h5><a class="navlink" href="#">Box-shadow</a></h5>
-                              <h5><a class="navlink" href="#">cards</a></h5>
-                              <h5><a class="navlink" href="#">container</a></h5>
-                              <h5><a class="navlink" href="#">Alignment</a></h5>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="navbox col-4 flex-sa-m">
-                        <h5><a class="navlink" href="#"><i class="social fa fa-facebook-square"></i></a></h5>
-                        <h5><a class="navlink" href="#"><i class="social fa fa-instagram"></i></a></h5>
-                        <h5><a class="navlink" href="#"><i class="social fa fa-behance"></i></a></h5>
-                        <h5><a class="navlink" href="#"><i class="social  fa fa-linkedin"></i></a></h5>
-                     </div>
-                  </div>
-               </div>
-            </div> 
-         </header>
-         </div>
-         </div>
-         </header>
-         <section class="section-1  row">
-            <div class="main-text col-6">
-               <br>  
-               <h3 class="lead" >Caveman CSS Framework</h3>
-               <h1 class="heading" >Handy. <br> Design. <br>Like Caveman.</h1>
-               
-               <h4 class="info" >A Grid & Flexbox based modern CSS framework</h4>
-               <br>
-               <div class="row ">
-                  <div class="col-6 docs-btn">
-                     <div class=""> <a class="cm-btn btn-info" href="docs/index.html">Get Started</a></div>
-                 
-                  </div>
-                  <div class="col-6 docs-btn">
-                     <div class=""><a class="cm-btn btn-black" href="#">Download</a></div>
-             
-                  </div>
-                 
-               </div>
+            <div class="navbox col-4">
+              <h3>Componants</h3>
+              <div class="part flex-sb-m">
+                <div class="partbox">
+                  <h5><a class="navlink" href="#">Accordition</a></h5>
+                  <h5><a class="navlink" href="#">Alignment</a></h5>
+                  <h5><a class="navlink" href="#">Buttons</a></h5>
+                  <h5><a class="navlink" href="#">Breadcrumbs</a></h5>
+                </div>
+                <div class="partbox">
+                  <h5><a class="navlink" href="#">Box-shadow</a></h5>
+                  <h5><a class="navlink" href="#">cards</a></h5>
+                  <h5><a class="navlink" href="#">container</a></h5>
+                  <h5><a class="navlink" href="#">Alignment</a></h5>
+                </div>
+              </div>
             </div>
-            <div class="illust col-6 flex-c-m" data-aos="zoom-out">
-               <img class="main-img" src="img/main-img.svg" alt="">
+            <div class="navbox col-4 flex-sa-m">
+              <h5><a class="navlink" href="#"><i class="social fa fa-facebook-square"></i></a></h5>
+              <h5><a class="navlink" href="#"><i class="social fa fa-instagram"></i></a></h5>
+              <h5><a class="navlink" href="#"><i class="social fa fa-behance"></i></a></h5>
+              <h5><a class="navlink" href="#"><i class="social  fa fa-linkedin"></i></a></h5>
             </div>
-    
-         </section>
-         <section class="section-2 row">
-            <div class="illust col-6 flex-c-m" data-aos="zoom-out">
-               <img class="img-1" src="img/img-1.svg" alt="caveman-interface">
-            </div>
-            <div class="text col-6">
-               <br>  
-               <h3 class="lead fw-4">Beautifully Designed UI interface</h3>
-               <h1 class="heading fw-7">A single css file with bunch of classes</h1>
-               <h4 class="info">caveman css framework is designed like this</h4>
-         
-            </div>
-         </section>
-         <section class="section-3 row">
-            <div class="text col-6">
-               <h3 class="lead text-success "><i class="fa fa-download"></i></h3>
-               <h1 class="heading ">Installation</h1>
-               <h4 class="info">you can install caveman css via npm or download & run it into .zip file from <a href="#" class="link text-info" >here</a></h4>
-            </div>
-            <div class="codebox col-6 ">
-               <pre class=""><code class="language-cmd">$ npm install cavemancss</code></pre>
-            </div>
-         </section>
-         <section class="section-3 row">
-            <div class="text col-6">
-               <h3 class="lead text-error "><i class="fa fa-cloud-download"></i><h3>
-               <h1 class="heading ">Caveman's CDN</h1>
-               <h4 class="info">When you only need to include caveman's compiled css , you can use caveman's cdn. <br>copy the HTML code from here and paste it into <xmp><head></head></xmp>tag of your HTML document</h4>
-            </div>
-            <div class="codebox col-6 ">
-               <pre class=""><code class="language-html"><xmp><link rel="stylesheet" href="#"></xmp></code></pre>
-            </div>
-         </section>
-         <section class="section-4 row">
-            <div class="text col-6">
-               <h3 class="lead text-warning"><i class="fa fa-tint" aria-hidden="true"></i><h3>
-               <h1 class="heading fw-8">Caveman's colors</h1>
-               <h4 class="info">There are 4 primary and 3 secondary colors in caveman.css. <br> We call them <span class="text-info">info</span>, <span class="text-warning">warning</span>, <span class="text-success">sucess</span>, <span class="text-error">error</span> and <span class="text-black fw-4">black</span>, <span class="text-white fw-4">white</span>,<span class="text-faded">faded</span> 
-               </h4>
-            </div>
-            <div class="color-palette col-6">
-               <div class="flex-sa">
-                  <div class="color-circle color-info flex-c-m"><h4 class="text-white fw-7 text-center">info<br><span class="fw-3"></span></h4></div>
-                  <div class="color-circle color-warning flex-c-m"><h4 class="text-black fw-7">warning</h4></div>
-               </div><br><br>
-               <div class="flex-sa-m">
-                  <div class="color-circle color-success flex-c-m"><h4 class="text-white fw-7">success</h4></div>
-                  <div class="color-circle color-error flex-c-m"><h4 class="text-white fw-7">error</h4></div>
-               </div>
-            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+</div>
+</header>
+<section class="section-1  row">
+<div class="main-text col-6">
+<br>
+<h3 class="lead">Caveman CSS Framework</h3>
+<h1 class="heading">Handy. <br> Design. <br>Like Caveman.</h1>
 
-         </section>
-         <section class="author row">
-            <div class="profile-pic col-2 ">
-               <img class="dp flex-c-m" src="img/myprofile.png" alt="">
-            </div>
-            <div class="text col-10">
-               <div class="tag">
-                  <p class="fw-7">Developed by</p>
-               </div>
-               <div class="name ">
-                  <h1 class="fw-9">Ankit Upadhyay</h1>
-               </div>
-               <div class="about">
-                  <h3 class="info text-white">
-                     I am an  ameture  web designer and a medical student based in India.
-                     i created a CSS file that can ease me while designing a website.
-                     Caveman CSS Framework is completely open-source and free to use commercially.If you are sing caveman.css and happy with its services then buy a coffee for me or become a petreon
-                  </h3>
-               </div>
-               <br>
-               <div class="donation col-12">
-                  <a class="" href="javascript:void(0);"><img class="coffee" src="img/Button-gif.gif" alt="" ></a><br>
-               </div>
-            </div>
-         </section>
-         <footer></footer>
-      </main>
+<h4 class="info">A Grid & Flexbox based modern CSS framework</h4>
+<br>
+<div class="row ">
+<div class="col-6 docs-btn">
+<div class="">
+<a class="cm-btn btn-info" href="docs/index.html">Get Started</a>
+</div>
 
-      <script src="js/prism.js"></script>
-      <script src="js/sidenav.js"></script>
-      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-      <script>
-         AOS.init(
-           {
-             duration: 1000,
-           }
-         );
-      </script>
-   </body>
+</div>
+<div class="col-6 docs-btn">
+<div class="">
+<a class="cm-btn btn-black" href="#">Download</a>
+</div>
+
+</div>
+
+</div>
+</div>
+<div class="illust col-6 flex-c-m" data-aos="zoom-out">
+<img class="main-img" src="img/main-img.svg" alt="">
+</div>
+
+</section>
+<section class="section-2 row">
+<div class="illust col-6 flex-c-m" data-aos="zoom-out">
+<img class="img-1" src="img/img-1.svg" alt="caveman-interface">
+</div>
+<div class="text col-6">
+<br>
+<h3 class="lead fw-4">Beautifully Designed UI interface</h3>
+<h1 class="heading fw-7">A single css file with bunch of classes</h1>
+<h4 class="info">caveman css framework is designed like this</h4>
+
+</div>
+</section>
+<section class="section-3 row">
+<div class="text col-6">
+<h3 class="lead text-success "><i class="fa fa-download"></i></h3>
+<h1 class="heading ">Installation</h1>
+<h4 class="info">you can install caveman css via npm or download & run it into .zip file from <a href="#" class="link text-info">here</a></h4>
+</div>
+<div class="codebox col-6 ">
+<pre class=""><code class="language-cmd">$ npm install cavemancss</code></pre>
+</div>
+</section>
+<section class="section-3 row">
+<div class="text col-6">
+<h3 class="lead text-error "><i class="fa fa-cloud-download"></i><h3>
+<h1 class="heading ">Caveman's CDN</h1>
+<h4 class="info">When you only need to include caveman's compiled css , you can use caveman's cdn. <br>copy the HTML code from here and paste it into <xmp><head></head>
+</xmp>tag of your HTML document</h4>
+</div>
+<div class="codebox col-6 ">
+<pre class=""><code class="language-html"><xmp><link rel="stylesheet" href="#"></xmp></code></pre>
+</div>
+</section>
+<section class="section-4 row">
+<div class="text col-6">
+<h3 class="lead text-warning"><i class="fa fa-tint" aria-hidden="true"></i><h3>
+<h1 class="heading fw-8">Caveman's colors</h1>
+<h4 class="info">There are 4 primary and 3 secondary colors in caveman.css. <br> We call them <span class="text-info">info</span>, <span class="text-warning">warning</span>, <span class="text-success">sucess</span>, <span class="text-error">error</span> and <span class="text-black fw-4">black</span>, <span class="text-white fw-4">white</span>,<span class="text-faded">faded</span>
+</h4>
+</div>
+<div class="color-palette col-6">
+<div class="flex-sa">
+<div class="color-circle color-info flex-c-m">
+<h4 class="text-white fw-7 text-center">info<br><span class="fw-3"></span></h4>
+</div>
+<div class="color-circle color-warning flex-c-m">
+<h4 class="text-black fw-7">warning</h4>
+</div>
+</div>
+<br><br>
+<div class="flex-sa-m">
+<div class="color-circle color-success flex-c-m">
+<h4 class="text-white fw-7">success</h4>
+</div>
+<div class="color-circle color-error flex-c-m">
+<h4 class="text-white fw-7">error</h4>
+</div>
+</div>
+</div>
+
+</section>
+<section class="author row">
+<div class="profile-pic col-2 ">
+<img class="dp flex-c-m" src="img/myprofile.png" alt="">
+</div>
+<div class="text col-10">
+<div class="tag">
+<p class="fw-7">
+Developed by
+</p>
+</div>
+<div class="name ">
+<h1 class="fw-9">Ankit Upadhyay</h1>
+</div>
+<div class="about">
+<h3 class="info text-white">
+I am an  ameture  web designer and a medical student based in India.
+i created a CSS file that can ease me while designing a website.
+Caveman CSS Framework is completely open-source and free to use commercially.If you are sing caveman.css and happy with its services then buy a coffee for me or become a petreon
+</h3>
+</div>
+<br>
+<div class="donation col-12">
+<a href="https://www.buymeacoffee.com/ankitupadhyay" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-white.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;"></a>
+</div>
+</div>
+</section>
+<footer></footer>
+</main>
+
+<script src="js/prism.js"></script>
+<script src="js/sidenav.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+AOS.init(
+{
+duration: 1000,
+}
+);
+</script>
+</body>
 </html>
